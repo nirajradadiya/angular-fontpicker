@@ -8,7 +8,7 @@ I have used AngularJS 1, directives and google font API in this demo.
 
 2) Click on cross platform system fonts or google fonts
 
-![ScreenShot](https://nirajradadiya.io/angular-fontpicker/cross-platform-system-font.png)
+![ScreenShot](https://nirajradadiya.github.io/angular-fontpicker/cross-platform-system-font.png)
 
 3) Resize font by size slider
 
