@@ -1,0 +1,156 @@
+body{
+	padding-top: 51px;
+}
+
+/* ng-cloak */
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng.ng-cloak {
+  display: none;
+}
+ul{
+	list-style: none;
+}
+a{
+	color: #333;
+}
+a:hover{
+	cursor: pointer;
+}
+ul.simple-post-list .post-image {
+	float: left;
+	margin-right: 12px;
+}
+ul.simple-post-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.callout-box{
+	background-color: #546489;
+	color: #fff;
+	padding: 10px 20px;
+}
+.body-title{
+	border: 1px solid #e3e3e3;
+	border-left: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.featured-box{
+	border: 1px solid #e3e3e3;
+	border-top: 5px solid #234383;
+	padding: 0 20px 20px;
+}
+.breadcrumbs {
+  position: relative;
+  border-bottom: 1px solid #E5E5E5;
+  background-color: #F5F5F5;
+}
+.breadcrumb{
+	margin-bottom: 0;
+}
+.cart-btn{
+	border-radius:0;
+}
+.navbar {
+	border-radius: 0;
+	
+/*background: #438EB9;
+color: #fff;border: 0;*/
+
+}
+/* Removed width:auto from navbar-collapse classs; */
+.navbar-collapse {
+  border-top: 0;
+  box-shadow: none;
+}
+.navbar .navbar-brand {
+/*color: #FFF;
+font-size: 24px;
+text-shadow: none;
+padding-bottom: 10px;*/
+}
+.form-group-addon{
+	padding-left: -20px;
+}
+
+.search-control {
+  padding-top: 25px;
+}
+.box {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0px 0px 20px 0px;
+  cursor: pointer;
+}
+.font-box {
+  border-right: 1px solid #ccc; 
+  height: 500px; 
+  overflow-y: scroll; 
+  overflow-x: hidden; 
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.demo-font {
+  height: 500px; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+}
+header {
+  background-color: #eeeeee;
+  margin-top: 15px;
+}
+.text-size-slider {
+  line-height: 100%;
+  font-size: 14px;
+}
+.text-size-slider .small-letter,.text-size-slider .big-letter
+{
+  font-weight: bold;
+  position: absolute;
+}
+.small-letter {
+  padding: 10px;
+}
+.big-letter {
+  padding-top: 10px;
+}
+.text-size-slider .slider {
+  -webkit-appearance: none;
+  margin: 15px 5px 15px 25px;
+  width: 64%;
+  display: inline-block;
+}
+.text-size-slider .slider:focus {
+  outline: none;
+}
+.text-size-slider .slider::-webkit-slider-thumb {
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+.text-size-slider .slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: white;
+  border: 0;
+}
+.paragraph {
+  background: #eee;
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+.custom-button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.loading { border:1px solid #ddd; padding:20px; margin:40px 5px; width:80px;}

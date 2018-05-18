@@ -1,0 +1,49 @@
+<!-- <div class="breadcrumbs" id="breadcrumbs">
+    <ul class="breadcrumb">
+        <li class="active"></li>
+    </ul>
+    <div style="float: right; margin-top: -27px; margin-right: 10px;"><a ng-click="navigateToTransaction();" style="margin-right:15px;">Make Transaction</a> <a ng-click="addAccount();">Add Account</a></div>
+</div> -->
+
+<div class="page-content">
+  <div class="row">
+    <div class="space-6"></div>
+    <div class="col-sm-12 col-sm-offset-0" style="border-radius: 10px; box-shadow: 1px 0px 10px #ccc;">
+      <div class="col-sm-2" style="border-right: 1px solid #ccc; height: 500px;">
+        <div class="input-group input-group-sm search-control"> 
+          <span class="input-group-addon">
+            <i class="fa fa-search"></i>
+          </span>
+          <input type="text" class="form-control" placeholder="Search" ng-model="query" />
+        </div>
+
+        <header ng-app="myApp">
+          <!-- Custom AngularJS Directive -->
+          <text-size-slider min="12" max="28" unit="px" value="14" step="0">
+          <!-- END of Custom AngularJS Directive -->
+          </text-size-slider>
+        </header>
+
+        <button class="btn btn-sm btn-primary custom-button" ng-click="getFontType('system')" data-ng-disabled="">
+          Cross Platform Fonts
+        </button>
+        <button class="btn btn-sm btn-primary custom-button" ng-click="getFontType('google')" data-ng-disabled="">
+          Google Fonts
+        </button>
+
+      </div>
+      <div class="col-sm-7 font-box">
+        <div class="col-sm-4 col-md-3 col-xs-6 box" ng-repeat="value in fonts | filter:query" style="text-align: center;" ng-click="getFontFamily(value.family, value.category)">
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family={{value.family}}">
+          <h1 style="font-family: '{{value.family}}', {{value.category}}; margin-bottom: 0px;">Ag</h1>
+          <span style="font-size: 12px;">{{value.family}}</span>
+        </div>
+      </div>
+      <div class="col-sm-3 demo-font">
+        <span class="paragraph">Paragraph</span>
+        <p id="fontchange" style="padding-top:25px; color: #222; font-family: '{{fontFamily}}', {{fontCategory}};">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div> 
+  </div>
+</div>
+<!-- /.page-content -->
